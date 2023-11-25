@@ -24,7 +24,8 @@ name(c:"yumna",d:"qasem");
  
 dynamic calc ({var e,var g}){
 
-  int f=e+g;
+  int f=e+g;      //لما اعمل cncatenating بهمني انه نفس التاين   for example list +list i do not care type of inside value 
+  
   return print(f);
 
   }
