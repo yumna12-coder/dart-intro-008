@@ -1,8 +1,10 @@
 
 
-void main(List<String> arguments) {
+import 'dart:io';
+
+void main() {
 
   print('Hello world');
-List<int>  numbers=[1,2,3,4,5,6,7,8];  
-print(numbers[1]);
+var input1=stdin.readLineSync();
+print('input1=$input1');
 }
